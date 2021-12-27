@@ -1,0 +1,28 @@
+{
+  "name": "otus-notifications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0:9229 src/server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbntv/otus-notifications.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbntv/otus-notifications/issues"
+  },
+  "homepage": "https://github.com/vbntv/otus-notifications#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
