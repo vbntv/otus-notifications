@@ -1,6 +1,6 @@
 Запуск:
 
-docker-composer up
+docker-compose up
 
 Через браузер зайти на 127.0.0.3:3003
 
